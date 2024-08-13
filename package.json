@@ -1,0 +1,63 @@
+{
+  "name": "b2b",
+  "version": "0.1.0",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "dev": "refine dev",
+    "build": "refine build",
+    "start": "refine start ./build/index.js",
+    "refine": "refine"
+  },
+  "dependencies": {
+    "@codemirror/lang-java": "^6.0.1",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/lang-python": "^6.1.6",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@dpcomp/io-base-sdk": "file:npm-packages/dpcomp-io-base-sdk-0.0.006.tgz",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/lab": "^5.0.0-alpha.85",
+    "@mui/material": "^5.16.7",
+    "@mui/x-data-grid": "^6.6.0",
+    "@refinedev/cli": "^2.16.37",
+    "@refinedev/core": "^4.54.0",
+    "@refinedev/devtools": "^1.2.7",
+    "@refinedev/kbar": "^1.3.6",
+    "@refinedev/mui": "^5.20.0",
+    "@refinedev/nestjsx-crud": "^5.0.9",
+    "@refinedev/react-hook-form": "^4.9.0",
+    "@refinedev/remix-router": "^3.0.0",
+    "@remix-run/node": "^2.4.1",
+    "@remix-run/react": "^2.4.1",
+    "@remix-run/serve": "^2.4.1",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@uiw/react-codemirror": "^4.23.0",
+    "codemirror": "^6.0.1",
+    "isbot": "^3.6.8",
+    "jsonwebtoken": "^9.0.2",
+    "prism-react-renderer": "^2.3.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "recharts": "^2.12.7",
+    "remix-auth": "^3.4.0",
+    "remix-auth-auth0": "^1.7.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.4.1",
+    "@remix-run/eslint-config": "^2.4.1",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^8.24.0",
+    "remix-flat-routes": "^0.6.5",
+    "typescript": "^5.4.2"
+  },
+  "refine": {
+    "projectId": "ojBSjU-u7XZqa-TU3tAR"
+  }
+}
